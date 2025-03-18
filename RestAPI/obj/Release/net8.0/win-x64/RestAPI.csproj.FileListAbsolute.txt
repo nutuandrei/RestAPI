@@ -46,3 +46,4 @@ C:\Users\nutuv\RiderProjects\RestAPI\RestAPI\obj\Release\net8.0\win-x64\refint\R
 C:\Users\nutuv\RiderProjects\RestAPI\RestAPI\obj\Release\net8.0\win-x64\RestAPI.pdb
 C:\Users\nutuv\RiderProjects\RestAPI\RestAPI\obj\Release\net8.0\win-x64\RestAPI.genruntimeconfig.cache
 C:\Users\nutuv\RiderProjects\RestAPI\RestAPI\obj\Release\net8.0\win-x64\ref\RestAPI.dll
+C:\Users\nutuv\RiderProjects\RestAPI\RestAPI\obj\Release\net8.0\win-x64\RestAPI.sourcelink.json

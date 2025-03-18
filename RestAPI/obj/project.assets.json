@@ -526,7 +526,7 @@
         }
       }
     },
-    "net8.0/win-x64": {
+    "net8.0/linux-x64": {
       "Microsoft.Data.Sqlite.Core/8.0.14": {
         "type": "package",
         "dependencies": {
@@ -881,7 +881,7 @@
           "lib/netstandard2.0/_._": {}
         },
         "native": {
-          "runtimes/win-x64/native/e_sqlite3.dll": {}
+          "runtimes/linux-x64/native/libe_sqlite3.so": {}
         },
         "build": {
           "buildTransitive/net8.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
@@ -1981,6 +1981,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.14, 8.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1993,7 +1999,7 @@
       }
     },
     "runtimes": {
-      "win-x64": {
+      "linux-x64": {
         "#import": []
       }
     }
